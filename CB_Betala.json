@@ -41,7 +41,7 @@
                 },
                 "2": {
                     "hashes": {
-                        "Sha256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+                        "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
                     },
                     "name": "services.exe",
                     "type": "file"
