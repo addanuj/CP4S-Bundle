@@ -21,9 +21,10 @@
             "objects": {
                 "0": {
                     "hashes": {
-                        "MD5": "8a0a29438052faed8a2532da50455756"
+                        "MD5": "17942df710a72b49233d5cdaaf9173c5",
+                        "Sha256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
                     },
-                    "name": "svctest.exe",
+                    "name": "PasswordCheck.xls",
                     "type": "file"
                 },
                 "1": {
@@ -58,7 +59,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.2"
+                    "value": "198.51.100.10"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -67,7 +68,73 @@
                 },
                 "7": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.10"
+                    "value": "10.10.100.50"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "LOCAL SERVICE"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2019-07-24T16:59:16.578Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2019-07-24T16:59:16.578Z",
+            "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+            "last_observed": "2019-07-24T16:59:16.578Z",
+            "modified": "2019-07-24T16:59:16.578Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "17942df710a72b49233d5cdaaf9173c5"
+                    },
+                    "name": "New_PasswordCheck.xls",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\File\\System\\svctest.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+                    "created": "2019-07-24T16:59:16.578Z",
+                    "creator_user_ref": "8",
+                    "name": "svctest.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7284,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "services.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "services.exe",
+                    "pid": 800,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "test"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "198.51.100.10"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.71"
                 },
                 "8": {
                     "type": "user-account",
