@@ -21,9 +21,10 @@
             "objects": {
                 "0": {
                     "hashes": {
-                        "MD5": "8a0a29438052faed8a2532da50455756"
+                        "Sha256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+                        "MD5": "17942df710a72b49233d5cdaaf9173c5"
                     },
-                    "name": "svctest.exe",
+                    "name": "PasswordCheck.xls",
                     "type": "file"
                 },
                 "1": {
