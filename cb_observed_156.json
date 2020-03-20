@@ -155,7 +155,7 @@
                     "hashes": {
                         "MD5": "846cdb921841ac671c86350d494abf9c"
                     },
-                    "name": "PasswordChange.exe",
+                    "name": "ChangePassword.exe",
                     "type": "file"
                 },
                 "1": {
@@ -170,13 +170,6 @@
                     "parent_ref": "3",
                     "pid": 7672,
                     "type": "process"
-                },
-                "2": {
-                    "hashes": {
-                        "MD5": "00000000000000000000000000000000"
-                    },
-                    "name": "services.exe",
-                    "type": "file"
                 },
                 "3": {
                     "binary_ref": "2",
